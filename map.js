@@ -32,7 +32,7 @@ function createFeatures(earthquakeData) {
 function createMap(earthquakes) {
 
     // Define map layers
-    var outdoors = = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/tiles/256/{z}/{x}/{y}?" +
+    var outdoors = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/tiles/256/{z}/{x}/{y}?" +
     "access_token=pk.eyJ1IjoiZGlteTEzIiwiYSI6ImNqbXNocG42ODAzZXgza28yZDh1OWtndGEifQ." +
     "-MYwn1UYQcumCt22eErCsw");
   
